@@ -15,12 +15,8 @@ let f = [
     'na', 'ne', 'ni', 'nu', 'no', 'n',
     'ra', 're', 'ri', 'ru', 'ro', 'r',
     'cha', 'che', 'chi', 'chu', 'cho', 'ch']
-let g = []
+
 
 f.forEach(element => {
-    g += i(element)
+    ief.innerHTML += i(element)
 });
-
-ief = ief.innerHTML.join(`
-
-    `)
