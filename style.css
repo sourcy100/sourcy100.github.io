@@ -1,0 +1,19 @@
+
+html {
+    font-family: "Cascadia Code";
+    font-size: 18pt;
+    background-color: #333;
+    color: #fff;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    margin-inline: 30px;
+}
+
+
+@font-face {
+    font-family: "Cascadia Code";
+    src: url("font/CascadiaCode.ttf");
+}
