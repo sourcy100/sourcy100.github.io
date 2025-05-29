@@ -15,11 +15,12 @@ let f = [
     'na', 'ne', 'ni', 'nu', 'no', 'n',
     'ra', 're', 'ri', 'ru', 'ro', 'r',
     'cha', 'che', 'chi', 'chu', 'cho', 'ch',
+    'ha', 'he', 'hi', 'hu', 'ho', 'h',
     'wa', 'we', 'wi', 'wu', 'wo', 'w',
     'la', 'le', 'li', 'lu', 'lo', 'l',
     'ga', 'ge', 'gi', 'gu', 'go', 'g',
     'za', 'ze', 'zi', 'zu', 'zo', 'z',
-    'a', 'e', 'i', 'o', 'u', "d'ore", "se'she"
+    'a', 'e', 'i', 'o', 'u', "d'ore", "seshe"
 ]
 
 
