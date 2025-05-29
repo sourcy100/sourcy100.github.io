@@ -2,7 +2,7 @@
 let ief = document.getElementById("ief")
 
 let i = function (name) {
-    return `<li><img src="///sourcy100.github.io/language/${name}.png" width="auto" height="18"/></li>`
+    return `<img src="///sourcy100.github.io/language/${name}.png" width="auto" height="28"/>`
 }
 
 
