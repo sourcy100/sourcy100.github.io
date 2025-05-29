@@ -13,6 +13,22 @@ h1 {
 }
 
 
+button {
+    border-radius: 10px;
+    font-family: "Cascadia Code";
+    font-size: 20pt;
+}
+
+header {
+
+    background-color: #000;
+    button {
+        background-color: #000;
+        font-size: 17px;
+    }
+    
+}
+
 @font-face {
     font-family: "Cascadia Code";
     src: url("font/CascadiaCode.ttf");
