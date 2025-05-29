@@ -2,7 +2,7 @@
 let ief = document.getElementById("ief")
 
 let i = function (name) {
-    return `<img src="///sourcy100.github.io/language/${name}.png" width="auto" height="28"/>`
+    return `<li><img src="///sourcy100.github.io/language/${name}.png" width="auto" height="36"/> - ${name}</li>`
 }
 
 
@@ -18,7 +18,7 @@ let f = [
     'wa', 'we', 'wi', 'wu', 'wo', 'w',
     'la', 'le', 'li', 'lu', 'lo', 'l',
     'a', 'e', 'i', 'o', 'u'
-    ]
+]
 
 
 f.forEach(element => {
