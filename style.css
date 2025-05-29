@@ -35,7 +35,11 @@ button {
 header {
     padding: 20px;
     background-color: #000;
-    position: sticky;
+    position: absolute;
+}
+
+nav {
+    right: 0;
 }
 
 .headache {
