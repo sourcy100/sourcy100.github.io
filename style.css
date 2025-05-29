@@ -7,6 +7,12 @@ html {
     text-align: justify;
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
 h1 {
     text-align: center;
     margin-inline: 30px;
@@ -14,19 +20,17 @@ h1 {
 
 
 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
     border-radius: 10px;
     font-family: "Cascadia Code";
-    font-size: 20pt;
+    font-size: 17pt;
 }
 
 header {
-
     background-color: #000;
-    button {
-        background-color: #000;
-        font-size: 17px;
-    }
-    
+    position: sticky;
 }
 
 @font-face {
