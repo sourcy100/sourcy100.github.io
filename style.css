@@ -7,6 +7,10 @@ html {
     text-align: justify;
 }
 
+body {
+    padding: 20px;
+}
+
 *,
 *::after,
 *::before {
@@ -29,8 +33,21 @@ button {
 }
 
 header {
+    padding: 20px;
     background-color: #000;
     position: sticky;
+    a {
+        margin: 15px;
+        text-decoration: none;
+    }
+}
+
+a {
+    color: #fff;
+}
+
+a::after {
+    color: #fff;
 }
 
 @font-face {
