@@ -40,6 +40,10 @@ header {
     border-radius: 20px;
 }
 
+ul {
+    column-count: 3;
+}
+
 nav {
     background-color: #333;
     border-radius: 20px;

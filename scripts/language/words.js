@@ -17,7 +17,7 @@ let x = {
 }
 
 for (const key in x){
-    g += repres(x[key]) + ` - ${key}`
+    g += `<li>${repres(x[key])} - ${key}</li>`
 }
 
 words.innerHTML = g
