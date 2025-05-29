@@ -21,6 +21,6 @@ f.forEach(element => {
     g += i(element)
 });
 
-ief = g.join(`
+ief = ief.innerHTML.join(`
 
     `)
