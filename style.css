@@ -36,10 +36,11 @@ header {
     padding: 20px;
     background-color: #000;
     position: sticky;
-    a {
-        margin: 15px;
-        text-decoration: none;
-    }
+}
+
+.headache {
+    margin: 15px;
+    text-decoration: none;
 }
 
 a {
