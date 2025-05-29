@@ -22,5 +22,5 @@ let f = [
 
 
 f.forEach(element => {
-    ief.innerHTML += i(element)
+    ief.innerHTML += draw(element)
 });
