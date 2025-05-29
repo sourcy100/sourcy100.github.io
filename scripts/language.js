@@ -2,7 +2,7 @@
 let ief = document.getElementById("ief")
 
 let i = function (name) {
-    return `<a href="https://sourcy100.github.io/language/${name}.html"><li>${name}</li></a>`
+    return `<img src="///sourcy100.github.io/language/${name}.html" width="auto" height="18"/>`
 }
 
 
@@ -14,7 +14,10 @@ let f = [
     'ka', 'ke', 'ki', 'ku', 'ko', 'k',
     'na', 'ne', 'ni', 'nu', 'no', 'n',
     'ra', 're', 'ri', 'ru', 'ro', 'r',
-    'cha', 'che', 'chi', 'chu', 'cho', 'ch']
+    'cha', 'che', 'chi', 'chu', 'cho', 'ch',
+    'wa', 'we', 'wi', 'wu', 'wo', 'w',
+    'a', 'e', 'i', 'o', 'u'
+    ]
 
 
 f.forEach(element => {
