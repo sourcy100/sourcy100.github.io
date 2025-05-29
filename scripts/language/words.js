@@ -1,7 +1,7 @@
 
 let words = document.getElementById("wrds")
 
-let i = function (name) {
+let repres = function (name) {
     let n = ''
     for (let j=0; j<name.length; j++){
         n += `<img src="///sourcy100.github.io/language/${name[j]}.png" width="auto" height="36">`
@@ -17,7 +17,7 @@ let x = {
 }
 
 for (const key in x){
-    g += i(x[key]) + ` - ${key}`
+    g += repres(x[key]) + ` - ${key}`
 }
 
 words.innerHTML = g
