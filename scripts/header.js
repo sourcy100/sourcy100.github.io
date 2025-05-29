@@ -1,7 +1,4 @@
 
-const header = document.getElementsByClassName("header")[0];
+let hs = document.getElementById("hs")
 
-header.innerHTML = (`
-<a href="https://sourcy100.github.io">Sourcy</a>
-<a href="https://youtube.com/@Artswaigen">YouTube</a>
-`);
+hs.innerHTML = `<a href="https://sourcy100.github.io">Sourcy</a><a href="https://youtube.com/@Artswaigen">YouTube</a>`
