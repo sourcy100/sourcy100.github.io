@@ -1,7 +1,7 @@
 
 html {
     font-family: "Cascadia Code";
-    font-size: 18pt;
+    font-size: 18px;
     background-color: #333;
     color: #fff;
     text-align: justify;
@@ -25,7 +25,7 @@ button {
     border: none;
     border-radius: 10px;
     font-family: "Cascadia Code";
-    font-size: 17pt;
+    font-size: 18px;
 }
 
 header {
