@@ -14,19 +14,9 @@ body {
 main {
     background-color: #555;
     border-radius: 15px;
-    min-height: 40%;
+    padding: 25px;
 }
 
-*,
-*::after,
-*::before {
-    box-sizing: inherit;
-}
-
-h1 {
-    text-align: center;
-    margin-inline: 30px;
-}
 
 
 button {
@@ -39,23 +29,44 @@ button {
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
+    margin: 20px;
     background-color: #000;
     top: 20px;
     position: sticky;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 
 ul {
-    column-count: 3;
+    column-count: 2;
 }
 
 nav {
     background-color: #333;
-    border-radius: 20px;
-    width: 15%;
-    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
+
+table {
+    border-radius: 5px;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    padding: 5px;
+    text-align: center;
+}
+
+img.borderr {
+    border-radius: 10px;
 }
 
 .headache {
@@ -73,5 +84,5 @@ a::after {
 
 @font-face {
     font-family: "Cascadia Code";
-    src: url("font/CascadiaCode.ttf");
+    src: url("/font/CascadiaCode.ttf");
 }

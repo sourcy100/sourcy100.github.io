@@ -2,30 +2,40 @@
 let ief = document.getElementById("ief")
 
 let draw = function (name) {
-    return `<li><img src="///sourcy100.github.io/language/${name}.png" width="auto" height="42"/> - ${name}</li>`
+    let k = ''
+    name.forEach(element => {
+        if (element !== undefined){
+            k += `<td><img src="/language/pics/${element}.png" width="auto" height="42" class="borderr"/></td><td>${element}</td>`
+        }
+    });
+    return `<tr>${k}</tr>`
 }
 
 
 let f = [
+    'a',
+    'b', 'ba', 'be', 'bi', 'bo', 'bu',
+    'ch', 'cha', 'che', 'chi', 'cho', 'chu',
+    'd', 'da', 'de', 'di', 'do', 'du',
+    'e',
+    'g', 'ga', 'ge', 'gi', 'go', 'gu',
+    'i',
+    'o',
+    'u',
     'ta', 'te', 'ti', 'tu', 'to', 't',
-    'da', 'de', 'di', 'du', 'do', 'd',
     'sa', 'se', 'si', 'su', 'so', 's',
-    'ba', 'be', 'bi', 'bu', 'bo', 'b',
     'ka', 'ke', 'ki', 'ku', 'ko', 'k',
     'na', 'ne', 'ni', 'nu', 'no', 'n',
     'ra', 're', 'ri', 'ru', 'ro', 'r',
-    'cha', 'che', 'chi', 'chu', 'cho', 'ch',
     'ha', 'he', 'hi', 'hu', 'ho', 'h',
     'wa', 'we', 'wi', 'wu', 'wo', 'w',
     'la', 'le', 'li', 'lu', 'lo', 'l',
-    'ga', 'ge', 'gi', 'gu', 'go', 'g',
     'za', 'ze', 'zi', 'zu', 'zo', 'z',
     'pa', 'pe', 'pi', 'pu', 'po', 'p',
     'ma', 'me', 'mi', 'mu', 'mo', 'm',
-    'a', 'e', 'i', 'o', 'u', "d'ore", "seshe"
+    "d'ore", "seshe",
 ]
 
 
-f.forEach(element => {
-    ief.innerHTML += draw(element)
-});
+for (let i=0; i<f.length/3; i++)
+    ief.innerHTML += draw([f[i*3], f[i*3 + 1], f[i*3 + 2]])
