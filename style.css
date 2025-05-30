@@ -11,6 +11,10 @@ body {
     padding: 20px;
 }
 
+main {
+    background-color: #555;
+}
+
 *,
 *::after,
 *::before {
@@ -39,6 +43,7 @@ header {
     position: sticky;
     border-radius: 20px;
 }
+
 
 ul {
     column-count: 3;

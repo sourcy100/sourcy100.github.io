@@ -20,6 +20,8 @@ let f = [
     'la', 'le', 'li', 'lu', 'lo', 'l',
     'ga', 'ge', 'gi', 'gu', 'go', 'g',
     'za', 'ze', 'zi', 'zu', 'zo', 'z',
+    'pa', 'pe', 'pi', 'pu', 'po', 'p',
+    'ma', 'me', 'mi', 'mu', 'mo', 'm',
     'a', 'e', 'i', 'o', 'u', "d'ore", "seshe"
 ]
 
