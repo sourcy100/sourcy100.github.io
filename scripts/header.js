@@ -11,6 +11,6 @@ Sourcy
 YouTube
 </a>
 <a href="/language" class="headache">
-Language
+Язык
 </a>
 </nav`

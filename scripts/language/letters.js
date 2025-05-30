@@ -37,5 +37,5 @@ let f = [
 ]
 
 
-for (let i=0; i<f.length/3; i++)
-    ief.innerHTML += draw([f[i*3], f[i*3 + 1], f[i*3 + 2]])
+for (let i=0; i<f.length/2; i++)
+    ief.innerHTML += draw([f[i*2], f[i*2 + 1]])
