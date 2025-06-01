@@ -3,11 +3,14 @@ let hs = document.getElementsByTagName("header")[0]
 
 hs.innerHTML = `
 
-<a href="/" class="headache">
+<a href="/">
 Sourcy
 </a>
 <nav>
-<a href="/language" class="headache">
+<a href="/language">
 Язык
+</a>
+<a href="/rules">
+Правила
 </a>
 </nav>`

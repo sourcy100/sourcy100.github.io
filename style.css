@@ -29,11 +29,6 @@ footer {
     border-radius: 20px;
 }
 
-footer a {
-    text-decoration: none;
-    padding-inline: 10px;
-}
-
 main {
     background-color: #555;
     border-radius: 15px;
@@ -47,7 +42,6 @@ main {
     width: 500px;
     height: 200px;
     display: block;
-    color: black;
 }
 
 .blayer {
@@ -56,11 +50,11 @@ main {
     height: 100%;
     width: 100%;
     top: 0;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(5px);
     align-content: center;
     border-radius: 10px;
+    color: #fff;
 }
-
 
 button {
     background-color: #000;
@@ -70,8 +64,6 @@ button {
     font-family: "Cascadia Code";
     font-size: 24px;
 }
-
-
 
 nav {
     background-color: #333;
@@ -100,9 +92,10 @@ img.borderr {
     border-radius: 10px;
 }
 
-.headache {
-    margin: 15px;
+header a,
+footer a {
     text-decoration: none;
+    margin-inline: 15px;
 }
 
 a {
