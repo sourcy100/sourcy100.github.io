@@ -11,12 +11,55 @@ body {
     padding: 20px;
 }
 
+header {
+    padding: 10px;
+    margin: 20px;
+    background-color: #000;
+    top: 20px;
+    position: sticky;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    padding-inline: 10px;
+}
+
 main {
     background-color: #555;
     border-radius: 15px;
     padding: 25px;
 }
 
+#banner {
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    display: block;
+    color: black;
+}
+
+.blayer {
+    position: relative;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(7px);
+    align-content: center;
+    border-radius: 10px;
+}
 
 
 button {
@@ -28,19 +71,7 @@ button {
     font-size: 24px;
 }
 
-header {
-    padding: 10px;
-    margin: 20px;
-    background-color: #000;
-    top: 20px;
-    position: sticky;
-    border-radius: 10px;
-}
 
-
-ul {
-    column-count: 2;
-}
 
 nav {
     background-color: #333;

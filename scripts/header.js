@@ -1,5 +1,5 @@
 
-let hs = document.getElementById("hs")
+let hs = document.getElementsByTagName("header")[0]
 
 hs.innerHTML = `
 
@@ -7,10 +7,7 @@ hs.innerHTML = `
 Sourcy
 </a>
 <nav>
-<a href="///youtube.com/@Artswaigen" class="headache">
-YouTube
-</a>
 <a href="/language" class="headache">
 Язык
 </a>
-</nav`
+</nav>`
